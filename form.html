@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+        <style>
+             body {
+                font-family: Arial, sans-serif;
+                padding: o 3%;
+                text-align: center;
+                color:white;
+            }
+        
+        p {
+            line-height: 1.4em;
+        }
+        
+        button{
+            height:150px; 
+            width: 350px;
+            font-family: Verdana;
+            font-size: 32px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+            color: white;   
+        }
+
+        input{
+            height: 20px;
+            width: 350px;
+        }
+
+        </style>
+
+        <script type="text/javascript">
+        function fn1()
+        {
+            var str1 = document.getElementById("name" ).value;
+            var str2 = document.getElementById("movies" ).value;
+            var str3 = document.getElementById("book" ).value;
+            var str4 = document.getElementById("sport" ).value;
+            var str5 = document.getElementById("artist" ).value;
+            var str6 = document.getElementById("grow" ).value;
+            alert("Thanks for your Answers: " + "                                                               Hello " + str1 +", you like the movie "+ str2 + ", the book " + str3 + ", you enjoy " + str4 + ", you listen to " + str5 + " and you want to be a " + str6 + " when you grow up. Thank You! Have a Nice Day!");
+        }
+        </script>
+</head>
+<body style = "background:rgb(124, 207, 235)">
+    
+<h2>Tell me more about Yourself! </h2>
+
+<h4>Since I used this website to tell you a little bit about myself...<br>
+    How about <b>YOU</b> tell me somethings about you aswell! </h4>
+
+    <input id="name" placeholder="Full Name"><br>
+    </br>
+    <input id="movies" placeholder="What's your favorite Movie?"><br>
+    <br>
+    <input id="book" placeholder="What's your favorite Book?"><br>
+    <br>
+    <input id="sport" placeholder="What's your favorite Sport?"><br>
+    <br>
+    <input id="artist" placeholder="Who is your favorite Music Artist?"><br>
+    <br>
+    <input id="grow" placeholder="What is your Dream Job?"><br>
+    </br>
+    
+    <button style="background-color: darkviolet; font-family: Verdana; font-size: 32px;height: 70px; width: 200px;" onclick="fn1()" id = "btn1">Submit</button>
+    <br></br>
+
+    <a href="computer.html">
+        <button style="background-color:rgb(0,31,54);"> Home</button>
+    </a>
+</body>
+</html>
+
+
+
+
+
+

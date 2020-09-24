@@ -1,0 +1,43 @@
+body {
+    font-size: X-large;
+    font-family: Arial, sans-serif;
+    padding: o 3%;
+    color:white;
+
+    
+}
+
+p {
+    line-height: 1.4em;
+    
+}
+
+button {
+    font-family: Ver;
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    height:150px; 
+    width: 350px;
+    text-align: center;
+} 
+
+img{height:200px;
+    width:200px;
+}
+
+div.welcome{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#box1{
+    height: 360px;
+    width: 480;
+    background-image: url(https://media3.giphy.com/media/OkJat1YNdoD3W/giphy.gif);
+    background-color: rgb(0, 31, 54);
+}
